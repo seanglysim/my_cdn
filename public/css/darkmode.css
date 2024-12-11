@@ -1,0 +1,31 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+}
+
+[data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#theme-toggle {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4a5568;
+    color: white;
+    transition: all 0.3s;
+}
+
+#theme-toggle:hover {
+    background-color: #2d3748;
+}

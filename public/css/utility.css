@@ -1,0 +1,70 @@
+/* utility.css */
+
+/* Layout utilities */
+.d-flex { display: flex; }
+.d-grid { display: grid; }
+.justify-center { justify-content: center; }
+.items-center { align-items: center; }
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+
+/* Spacing utilities */
+.m-1 { margin: 0.25rem; }
+.m-2 { margin: 0.5rem; }
+.m-4 { margin: 1rem; }
+
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+
+/* Typography utilities */
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+
+.font-bold { font-weight: 700; }
+.font-medium { font-weight: 500; }
+
+/* Colors */
+.bg-primary { background-color: #3b82f6; }
+.bg-secondary { background-color: #64748b; }
+.bg-success { background-color: #22c55e; }
+
+.text-primary { color: #3b82f6; }
+.text-secondary { color: #64748b; }
+.text-white { color: #ffffff; }
+
+/* Border utilities */
+.rounded-sm { border-radius: 0.125rem; }
+.rounded { border-radius: 0.25rem; }
+.rounded-lg { border-radius: 0.5rem; }
+
+/* Custom components */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #64748b;
+    color: white;
+}
+
+/* Responsive utilities */
+@media (min-width: 640px) {
+    .sm\:d-flex { display: flex; }
+    .sm\:text-lg { font-size: 1.125rem; }
+}
+
+@media (min-width: 768px) {
+    .md\:d-flex { display: flex; }
+    .md\:text-xl { font-size: 1.25rem; }
+}
